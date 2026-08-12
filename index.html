@@ -1,91 +1,436 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="description" content="Abhay Kumar Shukla — DevOps & AI/ML Engineer portfolio">
-<title>Abhay Kumar Shukla | DevOps & AI/ML Engineer</title>
-<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Abhay Kumar Shukla — DevOps &amp; AI/ML Engineer</title>
+<meta name="description" content="Abhay Kumar Shukla is a DevOps &amp; AI/ML Engineer specializing in Azure, Kubernetes, Terraform, CI/CD automation, and MLOps. Explore infrastructure labs, projects, and experience.">
+<meta name="author" content="Abhay Kumar Shukla">
+
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="Abhay Kumar Shukla — DevOps &amp; AI/ML Engineer">
+<meta property="og:description" content="Automating infrastructure. Engineering reliable systems. Portfolio of cloud, DevOps and AI/ML work.">
+<meta property="og:url" content="[ADD YOUR LINK]">
+<meta property="og:image" content="assets/images/og-cover.png">
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Abhay Kumar Shukla — DevOps &amp; AI/ML Engineer">
+<meta name="twitter:description" content="Automating infrastructure. Engineering reliable systems.">
+<meta name="twitter:image" content="assets/images/og-cover.png">
+
+<link rel="canonical" href="[ADD YOUR LINK]">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2220%22 fill=%22%230a0f0d%22/><text x=%2250%22 y=%2264%22 font-size=%2255%22 text-anchor=%22middle%22 fill=%22%2334d399%22 font-family=%22monospace%22>&gt;_</text></svg>">
+
+<!-- Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+
 <link rel="stylesheet" href="style.css">
+
+<!-- JSON-LD structured data -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Abhay Kumar Shukla",
+  "jobTitle": "DevOps & AI/ML Engineer",
+  "email": "mailto:abhayshukla.devops@gmail.com",
+  "telephone": "+91-6268970026",
+  "url": "[ADD YOUR LINK]",
+  "sameAs": [
+    "https://github.com/AbhayShukla1907",
+    "https://www.linkedin.com/in/abhay-kumar-shukla/"
+  ],
+  "worksFor": {
+    "@type": "Organization",
+    "name": "DevOps Insiders"
+  },
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Noida",
+    "addressCountry": "IN"
+  }
+}
+</script>
 </head>
 <body>
-<div id="loader"><b>AS<span>.</span></b><i></i></div>
-<header class="nav"><a class="logo" href="#home">ABHAY<span>.</span></a>
-<button class="hamb">☰</button><nav>
-<a href="#about">About</a><a href="#skills">Skills</a><a href="#journey">Journey</a><a href="#projects">Projects</a><a href="#certs">Credentials</a><a href="#contact">Contact</a>
-</nav></header>
 
-<main>
-<section id="home" class="hero wrap">
-<div class="reveal">
-<p class="status">● AVAILABLE FOR OPPORTUNITIES</p>
-<h1>Hi, I'm<br><strong>Abhay Kumar<br><em>Shukla.</em></strong></h1>
-<h2>DevOps & AI/ML Engineer</h2>
-<p class="intro">I build, automate and monitor cloud infrastructure — connecting reliable DevOps practices with modern AI/ML workflows.</p>
-<div class="actions"><a class="btn fill" href="#projects">Explore My Work ↗</a><a class="btn" href="mailto:abhay06072002@gmail.com">Get In Touch</a></div>
-<div class="social"><a href="https://github.com/AbhayShukla1907">GitHub ↗</a><a href="https://www.linkedin.com/in/abhay-kumar-shukla/">LinkedIn ↗</a><a href="mailto:abhayshukla.devops@gmail.com">Email ↗</a></div>
-</div>
-<div class="visual reveal"><div class="orb"></div><div class="code"><div>● ● ● <span>infrastructure.tf</span></div><pre><code><i>resource</i> "azurerm_linux_virtual_machine" "app" {
-  name = "devops-app"
-  size = "Standard_B1s"
+<!-- ================= SCROLL PROGRESS ================= -->
+<div class="scroll-progress" aria-hidden="true"><div class="scroll-progress__bar" id="scrollProgressBar"></div></div>
 
-  tags = {
-    environment = "production"
-    managed_by  = "terraform"
-  }
-}</code></pre><footer>✓ infrastructure automated</footer></div>
-<div class="badge b1">☁ Azure · AWS · GCP</div><div class="badge b2">⚙ Terraform · Kubernetes</div></div>
-</section>
+<!-- ================= SKIP LINK ================= -->
+<a class="skip-link" href="#main">Skip to content</a>
 
-<section class="quick wrap reveal"><div><b>Current Role</b><span>DevOps Engineer Intern</span></div><div><b>Cloud</b><span>Azure · AWS · GCP</span></div><div><b>Automation</b><span>Terraform · CI/CD</span></div><div><b>AI / MLOps</b><span>LLMs · RAG · ML</span></div></section>
+<!-- ================= BACKGROUND LAYERS ================= -->
+<div class="bg-grid" aria-hidden="true"></div>
+<canvas id="particleCanvas" class="bg-particles" aria-hidden="true"></canvas>
 
-<section id="about" class="section wrap"><p class="label">01 — ABOUT ME</p>
-<div class="head"><h2>Engineering with<br><span>automation in mind.</span></h2><p>DevOps engineer with a growing AI/ML toolkit, focused on practical cloud engineering and reliable delivery.</p></div>
-<div class="about"><div class="copy"><p>I'm <b>Abhay Kumar Shukla</b>, a DevOps & AI/ML Engineer with hands-on experience in cloud infrastructure, Infrastructure as Code, CI/CD, containerization and monitoring.</p><p>My work involves Azure and AWS environments, Terraform provisioning, Docker and Kubernetes, Jenkins and GitHub Actions, Linux and Nginx, plus Prometheus and Grafana for observability.</p><p>Alongside DevOps, I have foundational knowledge of Machine Learning, Generative AI, LLMs, RAG, embeddings and MLOps — with an interest in intelligent applications and automated infrastructure.</p></div>
-<div class="principles"><div><b>01</b><h3>Automate</h3><p>Make infrastructure and delivery repeatable through IaC and CI/CD.</p></div><div><b>02</b><h3>Observe</h3><p>Use metrics and dashboards to understand system behaviour.</p></div><div><b>03</b><h3>Scale</h3><p>Build cloud-native workflows with reliability and maintainability in mind.</p></div></div></div>
-</section>
+<!-- ================= NAVIGATION ================= -->
+<header class="nav" id="nav">
+  <nav class="nav__inner" aria-label="Primary">
+    <a href="#home" class="nav__logo" aria-label="Abhay Kumar Shukla — home">
+      <span class="nav__logo-bracket">&lt;</span>AKS<span class="nav__logo-bracket">/&gt;</span>
+    </a>
 
-<section id="skills" class="section shade"><div class="wrap"><p class="label">02 — SKILLS & ABILITIES</p>
-<div class="head"><h2>My technical<br><span>toolkit.</span></h2><p>Technologies and concepts across Cloud, DevOps and AI/ML.</p></div>
-<div class="grid skills">
-<article><b>☁</b><h3>Cloud Platforms</h3><p>Cloud infrastructure, compute, networking and resource management.</p><div class="tags"><span>Azure</span><span>AWS</span><span>GCP</span></div></article>
-<article><b>⌘</b><h3>Infrastructure as Code</h3><p>Version-controlled, repeatable infrastructure provisioning.</p><div class="tags"><span>Terraform</span><span>Ansible</span></div></article>
-<article><b>◈</b><h3>Containers & Orchestration</h3><p>Containerized application deployment and orchestration.</p><div class="tags"><span>Docker</span><span>Kubernetes</span></div></article>
-<article><b>↻</b><h3>CI/CD & Automation</h3><p>Automated build, test and deployment workflows.</p><div class="tags"><span>Jenkins</span><span>GitHub Actions</span><span>Git</span></div></article>
-<article><b>◉</b><h3>Monitoring & Observability</h3><p>System performance, resource utilization and dashboards.</p><div class="tags"><span>Prometheus</span><span>Grafana</span><span>Nginx</span></div></article>
-<article><b>AI</b><h3>AI / ML & MLOps</h3><p>ML fundamentals and modern retrieval-based AI workflows.</p><div class="tags"><span>Python</span><span>NumPy</span><span>Pandas</span><span>Scikit-learn</span><span>LLMs</span><span>RAG</span></div></article>
-</div></div></section>
+    <ul class="nav__links" id="navLinks">
+      <li><a href="#home" class="nav__link active" data-nav>home</a></li>
+      <li><a href="#about" class="nav__link" data-nav>about</a></li>
+      <li><a href="#experience" class="nav__link" data-nav>experience</a></li>
+      <li><a href="#skills" class="nav__link" data-nav>skills</a></li>
+      <li><a href="#projects" class="nav__link" data-nav>projects</a></li>
+      <li><a href="#certifications" class="nav__link" data-nav>certs</a></li>
+      <li><a href="#labs" class="nav__link" data-nav>labs</a></li>
+      <li><a href="#github" class="nav__link" data-nav>github</a></li>
+      <li><a href="#contact" class="nav__link" data-nav>contact</a></li>
+    </ul>
 
-<section id="journey" class="section wrap"><p class="label">03 — JOURNEY</p>
-<div class="head"><h2>Experience,<br><span>education & training.</span></h2><p>A snapshot of my professional and academic journey.</p></div>
-<div class="timeline">
-<div class="item"><time>DEC 2025 — PRESENT</time><div><small>CURRENT ROLE</small><h3>DevOps Engineer Intern</h3><h4>DevOps Insiders · Noida</h4><ul><li>Assisted with scalable cloud infrastructure deployment on AWS.</li><li>Worked with Docker and Kubernetes for containerization and orchestration.</li><li>Developed Jenkins and GitHub Actions CI/CD workflows.</li><li>Implemented Terraform-based infrastructure provisioning.</li><li>Configured Prometheus and Grafana dashboards for monitoring.</li><li>Collaborated with development teams to improve deployment efficiency.</li></ul></div></div>
-<div class="item"><time>2025</time><div><small>EDUCATION</small><h3>B.Tech — Electrical Engineering</h3><h4>Gyan Ganga Institute of Technology & Science · Jabalpur</h4><p>Graduated in 2025.</p></div></div>
-<div class="item"><time>2022</time><div><small>EDUCATION</small><h3>Diploma — Electrical Engineering</h3><h4>Government Polytechnic College · Shahdol</h4></div></div>
-</div></section>
+    <div class="nav__actions">
+      <span class="status-pill" title="Open to opportunities">
+        <span class="status-pill__dot"></span> available
+      </span>
+      <button class="nav__toggle" id="navToggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="navLinks">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+</header>
 
-<section id="projects" class="section shade"><div class="wrap"><p class="label">04 — PROJECTS</p>
-<div class="head"><h2>Built to learn.<br><span>Built to work.</span></h2><p>Selected projects and practical labs across application development, cloud and DevOps.</p></div>
-<div class="grid projects">
-<article class="project featured"><small>01 / FULL STACK + DEVOPS</small><h3>MEAN Stack CRUD Application</h3><p>Full-stack CRUD application using Angular, Node.js, Express.js and MongoDB. Containerized with Docker and configured for deployment.</p><div class="tags"><span>Angular</span><span>Node.js</span><span>Express.js</span><span>MongoDB</span><span>Docker</span></div><a href="https://github.com/AbhayShukla1907/mean-crud-app">View on GitHub ↗</a></article>
-<article class="project"><small>02 / CI/CD</small><h3>Jenkins & GitHub Actions Pipelines</h3><p>Automated build, test and deployment workflows with source control integration and containerized delivery.</p><div class="tags"><span>Jenkins</span><span>GitHub Actions</span><span>Docker</span></div></article>
-<article class="project"><small>03 / INFRASTRUCTURE</small><h3>Terraform Cloud Infrastructure</h3><p>Hands-on Infrastructure as Code work for repeatable, version-controlled cloud provisioning.</p><div class="tags"><span>Terraform</span><span>Azure</span><span>AWS</span></div></article>
-<article class="project"><small>04 / OBSERVABILITY</small><h3>Prometheus + Grafana Monitoring</h3><p>Monitoring and visualization for system performance, resource utilization and proactive troubleshooting.</p><div class="tags"><span>Prometheus</span><span>Grafana</span><span>Linux</span></div></article>
-<article class="project"><small>05 / CONTAINERIZATION</small><h3>Dockerized Web Applications</h3><p>Containerized web applications using Docker and Nginx, practicing portable deployment environments.</p><div class="tags"><span>Docker</span><span>Nginx</span><span>Linux</span></div></article>
-<article class="project"><small>06 / AZURE LAB</small><h3>Azure Infrastructure & Load Balancing</h3><p>Practical Azure lab covering VMs, networking, backend pools, health probes and load balancing.</p><div class="tags"><span>Azure</span><span>VM</span><span>Load Balancer</span></div></article>
-</div></div></section>
+<main id="main">
 
-<section id="certs" class="section wrap"><p class="label">05 — CREDENTIALS</p>
-<div class="head"><h2>Certifications &<br><span>achievements.</span></h2><p>Credentials and learning milestones supporting my engineering journey.</p></div>
-<div class="grid certs"><article><b>AZ-104</b><div><h3>Microsoft Azure Administrator Associate</h3><p>Azure administration & cloud infrastructure</p></div></article><article><b>DV</b><div><h3>DevOps & Cloud Engineering</h3><p>Hero Vired · Microsoft</p></div></article><article><b>AI</b><div><h3>Generative AI for Data, Tech & Finance</h3><p>Hero Vired · Microsoft</p></div></article></div>
-<div class="ach"><article><small>ACHIEVEMENT</small><h3>Hands-on technical learning</h3><p>Participated in workshops and practical labs focused on Cloud Infrastructure, Automation, DevOps and Artificial Intelligence.</p></article><article><small>FOCUS</small><h3>Practical engineering</h3><p>Applied CI/CD, Infrastructure as Code, containerization, monitoring and Generative AI concepts through project work.</p></article></div>
-</section>
+  <!-- ================= HERO ================= -->
+  <section class="hero" id="home">
+    <div class="hero__inner">
+      <div class="hero__content">
+        <p class="eyebrow"><span class="eyebrow__dot"></span>root@aks-portfolio:~$ whoami</p>
+        <h1 class="hero__name">Abhay Kumar<br>Shukla</h1>
+        <p class="hero__role">
+          <span class="hero__role-fixed">DevOps</span> <span class="hero__role-amp">&amp;</span> <span class="hero__role-fixed">AI/ML Engineer</span>
+        </p>
+        <h2 class="hero__headline">
+          Automating infrastructure.<br>
+          <span class="text-gradient">Engineering reliable systems.</span>
+        </h2>
+        <p class="hero__intro">
+          I design and ship cloud infrastructure on Azure and AWS, automate delivery with
+          Terraform, Docker, Kubernetes and CI/CD pipelines, and bring MLOps &amp; Generative AI
+          fundamentals into the systems I build. Currently a DevOps Engineer Intern at
+          <strong>DevOps Insiders</strong>, Noida.
+        </p>
 
-<section class="section shade"><div class="wrap"><div class="github-box"><div><p class="label">06 — GITHUB</p><h2>Code, automate,<br><span>repeat.</span></h2><p>Explore my repositories, DevOps labs and ongoing experiments.</p></div><a class="btn fill" href="https://github.com/AbhayShukla1907">Visit GitHub ↗</a></div></div></section>
+        <div class="hero__actions">
+          <a class="btn btn--primary" href="https://github.com/AbhayShukla1907" target="_blank" rel="noopener">
+            <svg class="btn__icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 .5C5.65.5.5 5.65.5 12c0 5.09 3.29 9.4 7.86 10.93.57.1.78-.25.78-.55 0-.27-.01-1.17-.02-2.12-3.2.7-3.87-1.36-3.87-1.36-.53-1.33-1.29-1.69-1.29-1.69-1.05-.72.08-.7.08-.7 1.17.08 1.78 1.2 1.78 1.2 1.03 1.77 2.71 1.26 3.37.96.1-.75.4-1.26.73-1.55-2.55-.29-5.24-1.28-5.24-5.69 0-1.26.45-2.29 1.19-3.09-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11 11 0 0 1 5.79 0c2.2-1.49 3.17-1.18 3.17-1.18.64 1.59.24 2.76.12 3.05.74.8 1.19 1.83 1.19 3.09 0 4.42-2.7 5.4-5.26 5.68.41.36.78 1.07.78 2.16 0 1.56-.02 2.82-.02 3.2 0 .31.21.66.79.55A10.52 10.52 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5Z"/></svg>
+            GitHub
+          </a>
+          <a class="btn btn--secondary" href="https://www.linkedin.com/in/abhay-kumar-shukla/" target="_blank" rel="noopener">LinkedIn</a>
+          <a class="btn btn--secondary" href="mailto:abhayshukla.devops@gmail.com">Email</a>
+          <a class="btn btn--ghost" href="assets/resume/Abhay_Kumar_Shukla_Resume.pdf" download>
+            Resume <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 3v12m0 0-4-4m4 4 4-4M4 21h16"/></svg>
+          </a>
+        </div>
 
-<section id="contact" class="section wrap"><p class="label">07 — CONTACT ME</p><div class="contact"><div><h2>Let's build something<br><span>reliable together.</span></h2><p>Open to DevOps, Cloud, MLOps and related engineering opportunities.</p></div>
-<div class="contact-links"><a href="mailto:abhay06072002@gmail.com"><small>EMAIL</small><b>abhay06072002@gmail.com ↗</b></a><a href="https://github.com/AbhayShukla1907"><small>GITHUB</small><b>AbhayShukla1907 ↗</b></a><a href="https://www.linkedin.com/"><small>LINKEDIN</small><b>Connect with me ↗</b></a><a href="tel:+916268970026"><small>PHONE</small><b>+91 62689 70026 ↗</b></a></div></div></section>
+        <div class="hero__meta">
+          <div class="hero__meta-item"><span>location</span><strong>Noida, India</strong></div>
+          <div class="hero__meta-item"><span>role</span><strong>DevOps Engineer Intern</strong></div>
+          <div class="hero__meta-item"><span>since</span><strong>Dec 2025</strong></div>
+        </div>
+      </div>
+
+      <div class="hero__visual" aria-hidden="true">
+        <div class="arch-diagram" id="archDiagram">
+          <div class="arch-diagram__glow"></div>
+          <ol class="arch-node-list">
+            <li class="arch-node" data-node="user"><span class="arch-node__label">USER</span></li>
+            <li class="arch-node" data-node="nginx"><span class="arch-node__label">NGINX</span></li>
+            <li class="arch-node" data-node="lb"><span class="arch-node__label">LOAD BALANCER</span></li>
+            <li class="arch-node" data-node="k8s"><span class="arch-node__label">KUBERNETES</span></li>
+            <li class="arch-node" data-node="docker"><span class="arch-node__label">DOCKER CONTAINERS</span></li>
+            <li class="arch-node" data-node="app"><span class="arch-node__label">APPLICATION</span></li>
+            <li class="arch-node" data-node="db"><span class="arch-node__label">DATABASE</span></li>
+          </ol>
+          <svg class="arch-diagram__line" viewBox="0 0 4 300" preserveAspectRatio="none" aria-hidden="true">
+            <line x1="2" y1="0" x2="2" y2="300" stroke="url(#lineGrad)" stroke-width="2"/>
+            <defs>
+              <linearGradient id="lineGrad" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0%" stop-color="var(--accent-emerald)" stop-opacity="0.1"/>
+                <stop offset="50%" stop-color="var(--accent-emerald)" stop-opacity="0.8"/>
+                <stop offset="100%" stop-color="var(--accent-cyan)" stop-opacity="0.2"/>
+              </linearGradient>
+            </defs>
+          </svg>
+          <div class="arch-diagram__packet" id="archPacket"></div>
+
+          <div class="arch-stack" aria-hidden="true">
+            <span>Azure</span><span>AWS</span><span>Terraform</span><span>Docker</span>
+            <span>Kubernetes</span><span>Jenkins</span><span>Prometheus</span><span>Grafana</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero__scroll-cue" aria-hidden="true">
+      <span>scroll</span>
+      <div class="hero__scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ================= ABOUT ================= -->
+  <section class="section" id="about">
+    <div class="section__inner">
+      <p class="section__eyebrow">01 · about</p>
+      <h2 class="section__title">About me</h2>
+
+      <div class="about__grid">
+        <div class="about__text">
+          <p>
+            I'm a DevOps &amp; AI/ML Engineer who likes systems that don't wake anyone up at 3 a.m.
+            My work centers on cloud infrastructure automation on Azure and AWS — provisioning with
+            Terraform, containerizing with Docker, orchestrating with Kubernetes, and wiring it all
+            together with Jenkins and GitHub Actions pipelines that build, test, and ship on their own.
+          </p>
+          <p>
+            Alongside infrastructure, I'm building depth in Machine Learning and Generative AI —
+            from supervised/unsupervised learning fundamentals to LLMs, RAG, embeddings, and semantic
+            search — with an eye toward MLOps: getting models deployed, monitored, and maintained with
+            the same rigor as any other production service.
+          </p>
+          <p class="engineering-philosophy">
+            <span class="engineering-philosophy__label">$ cat philosophy.txt</span>
+            Automate the repeatable. Monitor the critical. Document the non-obvious.
+            Reliability is a feature, not an afterthought.
+          </p>
+        </div>
+
+        <div class="about__cards">
+          <div class="about-card"><span class="about-card__icon" data-icon="infrastructure"></span><h3>Infrastructure Automation</h3><p>Terraform-driven IaC for repeatable, version-controlled cloud provisioning.</p></div>
+          <div class="about-card"><span class="about-card__icon" data-icon="cicd"></span><h3>CI/CD</h3><p>Jenkins &amp; GitHub Actions pipelines for automated build, test, and deploy.</p></div>
+          <div class="about-card"><span class="about-card__icon" data-icon="cloud"></span><h3>Cloud Engineering</h3><p>Azure &amp; AWS infrastructure design, networking, and resource optimization.</p></div>
+          <div class="about-card"><span class="about-card__icon" data-icon="containers"></span><h3>Containerization</h3><p>Docker &amp; Kubernetes for portable, orchestrated, scalable workloads.</p></div>
+          <div class="about-card"><span class="about-card__icon" data-icon="monitoring"></span><h3>Monitoring</h3><p>Prometheus &amp; Grafana dashboards for observability and incident response.</p></div>
+          <div class="about-card"><span class="about-card__icon" data-icon="ai"></span><h3>AI / ML</h3><p>ML fundamentals, LLMs, RAG &amp; embeddings applied with an MLOps mindset.</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= EXPERIENCE ================= -->
+  <section class="section" id="experience">
+    <div class="section__inner">
+      <p class="section__eyebrow">02 · experience</p>
+      <h2 class="section__title">Experience</h2>
+
+      <div class="timeline">
+        <div class="timeline__line" aria-hidden="true"><div class="timeline__line-fill" id="timelineFill"></div></div>
+
+        <article class="timeline__item">
+          <div class="timeline__marker"></div>
+          <div class="timeline__card">
+            <p class="timeline__date">December 2025 — Present</p>
+            <h3 class="timeline__role">DevOps Engineer Intern</h3>
+            <p class="timeline__company">DevOps Insiders · Noida, India</p>
+            <ul class="timeline__list">
+              <li><strong>Cloud infrastructure deployment</strong> — assisted in deploying and managing scalable infrastructure on AWS using Docker and Kubernetes for containerization and orchestration.</li>
+              <li><strong>CI/CD automation</strong> — developed and maintained pipelines using Jenkins and GitHub Actions for automated build, test and deployment workflows.</li>
+              <li><strong>Infrastructure as Code</strong> — implemented Terraform-based provisioning for repeatable, version-controlled infrastructure.</li>
+              <li><strong>Monitoring &amp; observability</strong> — configured Prometheus and Grafana dashboards to track performance, resource utilization, and generate actionable insight.</li>
+              <li><strong>Collaboration</strong> — worked with development teams to improve application performance and streamline release processes.</li>
+            </ul>
+            <div class="timeline__tags">
+              <span>AWS</span><span>Docker</span><span>Kubernetes</span><span>Jenkins</span>
+              <span>GitHub Actions</span><span>Terraform</span><span>Prometheus</span><span>Grafana</span>
+            </div>
+          </div>
+        </article>
+      </div>
+
+      <div class="education">
+        <h3 class="education__title">Education</h3>
+        <div class="education__grid">
+          <div class="education__item">
+            <p class="education__degree">B.Tech, Electrical Engineering</p>
+            <p class="education__school">Gyan Ganga Institute of Technology &amp; Science, Jabalpur</p>
+            <p class="education__year">2025</p>
+          </div>
+          <div class="education__item">
+            <p class="education__degree">Diploma, Electrical Engineering</p>
+            <p class="education__school">Government Polytechnic College, Shahdol</p>
+            <p class="education__year">2022</p>
+          </div>
+          <div class="education__item">
+            <p class="education__degree">Higher Secondary (12th)</p>
+            <p class="education__school">Govt. Excellence School, Shahdol</p>
+            <p class="education__year">2019</p>
+          </div>
+          <div class="education__item">
+            <p class="education__degree">Secondary (10th)</p>
+            <p class="education__school">Saraswati Higher Secondary School, Shahdol</p>
+            <p class="education__year">2017</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= SKILLS ================= -->
+  <section class="section" id="skills">
+    <div class="section__inner">
+      <p class="section__eyebrow">03 · skills</p>
+      <h2 class="section__title">Technical skills</h2>
+      <p class="section__lead">Hover or tap a technology to see what it's for and what it pairs with.</p>
+
+      <div class="skills" id="skillsRoot">
+        <div class="skills__categories" id="skillCategories" role="tablist" aria-label="Skill categories"></div>
+        <div class="skills__cloud" id="skillCloud"></div>
+        <div class="skill-detail" id="skillDetail">
+          <p class="skill-detail__placeholder">Select a technology to view details →</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= PROJECTS ================= -->
+  <section class="section" id="projects">
+    <div class="section__inner">
+      <p class="section__eyebrow">04 · projects</p>
+      <h2 class="section__title">Projects</h2>
+      <p class="section__lead">Selected build-outs across full-stack delivery, automation, infrastructure and observability.</p>
+
+      <div class="projects-grid" id="projectsGrid"></div>
+    </div>
+  </section>
+
+  <!-- Project modal -->
+  <div class="modal" id="projectModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle" hidden>
+    <div class="modal__backdrop" data-close-modal></div>
+    <div class="modal__panel">
+      <button class="modal__close" data-close-modal aria-label="Close project details">&times;</button>
+      <div class="modal__content" id="modalContent"></div>
+    </div>
+  </div>
+
+  <!-- ================= CERTIFICATIONS ================= -->
+  <section class="section" id="certifications">
+    <div class="section__inner">
+      <p class="section__eyebrow">05 · certifications</p>
+      <h2 class="section__title">Certifications</h2>
+
+      <div class="certs-grid" id="certsGrid"></div>
+    </div>
+  </section>
+
+  <!-- ================= LABS ================= -->
+  <section class="section" id="labs">
+    <div class="section__inner">
+      <p class="section__eyebrow">06 · devops labs</p>
+      <h2 class="section__title">DevOps Labs</h2>
+      <p class="section__lead">Hands-on infrastructure work — click a lab to see the problem, architecture, and result.</p>
+
+      <div class="labs-grid" id="labsGrid"></div>
+    </div>
+  </section>
+
+  <!-- ================= GITHUB ================= -->
+  <section class="section" id="github">
+    <div class="section__inner">
+      <p class="section__eyebrow">07 · github</p>
+      <h2 class="section__title">GitHub activity</h2>
+
+      <div class="github-panel">
+        <div class="github-panel__profile">
+          <div class="github-stat"><span class="github-stat__value" id="ghRepos">—</span><span class="github-stat__label">repositories</span></div>
+          <div class="github-stat"><span class="github-stat__value" id="ghFollowers">—</span><span class="github-stat__label">followers</span></div>
+          <div class="github-stat"><span class="github-stat__value" id="ghFollowing">—</span><span class="github-stat__label">following</span></div>
+          <a class="btn btn--primary" href="https://github.com/AbhayShukla1907" target="_blank" rel="noopener">View GitHub Profile</a>
+        </div>
+        <div class="github-panel__repos" id="ghRepoList">
+          <p class="github-panel__loading" id="ghLoading">$ fetching public repositories…</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= CONTACT ================= -->
+  <section class="section section--contact" id="contact">
+    <div class="section__inner">
+      <p class="section__eyebrow">08 · contact</p>
+      <h2 class="section__title">Have infrastructure to automate?</h2>
+      <p class="section__lead section__lead--large">Let's build something reliable.</p>
+
+      <div class="contact__grid">
+        <div class="contact__info">
+          <a class="contact__row" href="mailto:abhayshukla.devops@gmail.com">
+            <span class="contact__row-label">email</span>
+            <span class="contact__row-value">abhayshukla.devops@gmail.com</span>
+          </a>
+          <a class="contact__row" href="tel:+916268970026">
+            <span class="contact__row-label">phone</span>
+            <span class="contact__row-value">+91 6268970026</span>
+          </a>
+          <a class="contact__row" href="https://github.com/AbhayShukla1907" target="_blank" rel="noopener">
+            <span class="contact__row-label">github</span>
+            <span class="contact__row-value">AbhayShukla1907</span>
+          </a>
+          <a class="contact__row" href="https://www.linkedin.com/in/abhay-kumar-shukla/" target="_blank" rel="noopener">
+            <span class="contact__row-label">linkedin</span>
+            <span class="contact__row-value">abhay-kumar-shukla</span>
+          </a>
+        </div>
+
+        <form class="contact__form" id="contactForm" novalidate>
+          <!--
+            Static site (GitHub Pages, no backend). This form currently opens
+            the visitor's email client via mailto. To receive submissions
+            directly, wire ACTION_ENDPOINT below to a Formspree or Web3Forms
+            endpoint — see the README / comments in script.js under
+            "CONTACT FORM CONFIGURATION".
+          -->
+          <div class="form-field">
+            <label for="cf-name">Name</label>
+            <input type="text" id="cf-name" name="name" required autocomplete="name">
+          </div>
+          <div class="form-field">
+            <label for="cf-email">Email</label>
+            <input type="email" id="cf-email" name="email" required autocomplete="email">
+          </div>
+          <div class="form-field">
+            <label for="cf-message">Message</label>
+            <textarea id="cf-message" name="message" rows="5" required></textarea>
+          </div>
+          <button type="submit" class="btn btn--primary">Send message</button>
+          <p class="contact__form-note" id="contactFormNote" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </div>
+  </section>
+
 </main>
-<footer><b>ABHAY<span>.</span></b><p>DevOps · Cloud · AI/ML</p><p>© <span id="year"></span> Abhay Kumar Shukla</p></footer>
+
+<!-- ================= FOOTER ================= -->
+<footer class="footer">
+  <div class="footer__inner">
+    <div class="footer__brand">
+      <p class="footer__name">Abhay Kumar Shukla</p>
+      <p class="footer__role">DevOps &amp; AI/ML Engineer</p>
+    </div>
+    <div class="footer__links">
+      <a href="https://github.com/AbhayShukla1907" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://www.linkedin.com/in/abhay-kumar-shukla/" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="mailto:abhayshukla.devops@gmail.com">Email</a>
+    </div>
+    <p class="footer__copy">© <span id="footerYear"></span> Abhay Kumar Shukla. Built with HTML, CSS &amp; JavaScript.</p>
+  </div>
+</footer>
+
+<button class="back-to-top" id="backToTop" aria-label="Back to top" hidden>
+  <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+</button>
+
+<!-- GSAP (CDN) -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
 <script src="script.js"></script>
-</body></html>
+</body>
+</html>
