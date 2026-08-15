@@ -158,7 +158,7 @@ Jenkins pipeline with SonarQube + Trivy scanning, Helm-based K8s deploys, GitOps
 
 <br/>
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=AbhayShukla1907&theme=tokyonight&hide_border=true"/>
+<img src="https://streak-stats.demolab.com/?user=AbhayShukla1907&theme=tokyonight&hide_border=true"/>
 
 <br/>
 
