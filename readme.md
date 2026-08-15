@@ -1,179 +1,194 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0078D4,100:00C6FF&height=220&section=header&text=Abhay%20Kumar%20Shukla&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=DevOps%20Engineer%20|%20Cloud%20%26%20Automation&descAlignY=52&descSize=18" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0F0F0F,100:0F0F0F&height=2&section=header"/>
 
-<a href="https://linkedin.com">
-  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
-</a>
-<a href="mailto:abhay06072002@gmail.com">
-  <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
-</a>
-<a href="https://github.com/AbhayShukla1907">
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
-</a>
+<pre>
+<b><font color="#39FF14">abhay@devops</font></b>:<b><font color="#00C6FF">~</font></b>$ whoami
+</pre>
+
+# ABHAY KUMAR SHUKLA
+
+### `DevOps Engineer` · `Cloud & Infrastructure Automation` · `AZ-104 Certified`
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&duration=3000&pause=800&color=39FF14&center=true&vCenter=true&width=650&lines=deploying+infra+like+its+production+(because+it+is);terraform+apply+%E2%86%92+coffee+%E2%86%92+repeat;automating+what+used+to+be+manual;currently%3A+shipping+CI%2FCD%2C+learning+RAG"/>
 
 <br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=0078D4&center=true&vCenter=true&width=600&lines=Automating+cloud+infrastructure+%F0%9F%9A%80;Building+CI%2FCD+pipelines+that+don't+break;Infrastructure+as+Code+%3D+Infrastructure+as+Trust;AZ-104+Certified+%7C+Azure+%2B+AWS;Currently+exploring+MLOps+%26+RAG+pipelines"/>
+[![LinkedIn](https://img.shields.io/badge/LINKEDIN-black?style=for-the-badge&logo=linkedin&logoColor=39FF14&labelColor=0F0F0F)](https://linkedin.com)
+[![Gmail](https://img.shields.io/badge/EMAIL-black?style=for-the-badge&logo=gmail&logoColor=39FF14&labelColor=0F0F0F)](mailto:abhay06072002@gmail.com)
+[![GitHub](https://img.shields.io/badge/GITHUB-black?style=for-the-badge&logo=github&logoColor=39FF14&labelColor=0F0F0F)](https://github.com/AbhayShukla1907)
 
 </div>
 
 <br/>
 
-## 🧭 About Me
+## `$` cat about.txt
 
 ```yaml
-role: DevOps Engineer Intern @ DevOps Insiders, Noida
-focus: [Cloud Infrastructure, CI/CD Automation, IaC, Observability]
-currently_building: Azure Landing Zones for BFSI-grade enterprise clients
-currently_learning: [Generative AI, RAG pipelines, MLOps]
-fun_fact: I treat every manual deployment step as a bug to be automated
+name:            Abhay Kumar Shukla
+role:            DevOps Engineer Intern @ DevOps Insiders, Noida
+based_in:        India
+education:       B.Tech, Electrical Engineering (2025)
+certified:       AZ-104 · AZ-900
+
+currently:
+  building:      Azure Landing Zones for BFSI-grade enterprise clients
+  learning:      Generative AI · RAG pipelines · MLOps
+  impact:        ~40% less provisioning effort | deploys cut to <30 min
+
+philosophy: >
+  If I'm doing it manually twice, the third time it becomes a pipeline.
 ```
 
-- 🔭 Currently modernizing CI/CD pipelines and standardizing landing zones on **Azure**
-- 🌱 Growing into **Generative AI / LLMs / MLOps** to bring an ML-aware lens to platform engineering
-- ⚡ Reduced infra provisioning effort by **~40%** and cut deployment time from hours to **under 30 minutes** on a recent enterprise project
-- 🎯 2025 B.Tech grad (Electrical Engineering) → pivoted hard into Cloud & DevOps
-- 💬 Ask me about: Terraform modules, AKS/EKS, Jenkins pipelines, or Prometheus/Grafana dashboards
-
 <br/>
 
-## 🧰 Tech Arsenal
-
-<table>
-<tr>
-<td valign="top" width="50%">
-
-**☁️ Cloud & Infra**
-<br/>
-<img src="https://skillicons.dev/icons?i=azure,aws,gcp,terraform,ansible,linux" />
-
-**📦 Containers & Orchestration**
-<br/>
-<img src="https://skillicons.dev/icons?i=docker,kubernetes,helm" />
-
-</td>
-<td valign="top" width="50%">
-
-**🔁 CI/CD & GitOps**
-<br/>
-<img src="https://skillicons.dev/icons?i=jenkins,githubactions,azuredevops,git,github" />
-
-**📊 Monitoring & Scripting**
-<br/>
-<img src="https://skillicons.dev/icons?i=prometheus,grafana,python,bash" />
-
-</td>
-</tr>
-</table>
+## `$` ls -la tech-stack/
 
 <div align="center">
-<img src="https://img.shields.io/badge/ArgoCD-EF7B4D?style=flat-square&logo=argo&logoColor=white"/>
-<img src="https://img.shields.io/badge/SonarQube-4E9BCD?style=flat-square&logo=sonarqube&logoColor=white"/>
-<img src="https://img.shields.io/badge/Trivy-1904DA?style=flat-square&logo=aquasecurity&logoColor=white"/>
-<img src="https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white"/>
-<img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white"/>
-<img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white"/>
-<img src="https://img.shields.io/badge/Scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white"/>
+
+**Cloud & Infra**
+<br/>
+<img src="https://skillicons.dev/icons?i=azure,aws,gcp,terraform,ansible,linux&theme=dark" />
+
+<br/><br/>
+
+**Containers & Orchestration**
+<br/>
+<img src="https://skillicons.dev/icons?i=docker,kubernetes,helm&theme=dark" />
+
+<br/><br/>
+
+**CI/CD & GitOps**
+<br/>
+<img src="https://skillicons.dev/icons?i=jenkins,githubactions,azure,git,github&theme=dark" />
+
+<br/><br/>
+
+**Monitoring & Scripting**
+<br/>
+<img src="https://skillicons.dev/icons?i=prometheus,grafana,python,bash&theme=dark" />
+
+</div>
+
+<div align="center">
+
+<br/>
+
+![ArgoCD](https://img.shields.io/badge/ArgoCD-black?style=flat-square&logo=argo&logoColor=EF7B4D&labelColor=0F0F0F)
+![SonarQube](https://img.shields.io/badge/SonarQube-black?style=flat-square&logo=sonarqube&logoColor=4E9BCD&labelColor=0F0F0F)
+![Trivy](https://img.shields.io/badge/Trivy-black?style=flat-square&logo=aquasecurity&logoColor=1904DA&labelColor=0F0F0F)
+![Nginx](https://img.shields.io/badge/Nginx-black?style=flat-square&logo=nginx&logoColor=009639&labelColor=0F0F0F)
+![NumPy](https://img.shields.io/badge/NumPy-black?style=flat-square&logo=numpy&logoColor=013243&labelColor=0F0F0F)
+![Pandas](https://img.shields.io/badge/Pandas-black?style=flat-square&logo=pandas&logoColor=E70488&labelColor=0F0F0F)
+![Scikit](https://img.shields.io/badge/Scikit--learn-black?style=flat-square&logo=scikitlearn&logoColor=F7931E&labelColor=0F0F0F)
+
 </div>
 
 <br/>
 
-## 🏗️ Infrastructure Pipeline (how I ship)
+## `$` exec ./deploy-pipeline.sh
 
 ```mermaid
 graph LR
-    A[Code Commit] --> B[GitHub Actions / Jenkins]
-    B --> C[SonarQube + Trivy Scan]
-    C --> D[Docker Build & Push to ACR]
-    D --> E[Terraform Apply]
-    E --> F[Deploy to AKS via ArgoCD]
-    F --> G[Prometheus + Grafana Monitoring]
-    style A fill:#0078D4,color:#fff
-    style B fill:#D24939,color:#fff
-    style C fill:#4E9BCD,color:#fff
-    style D fill:#2496ED,color:#fff
-    style E fill:#7B42BC,color:#fff
-    style F fill:#326CE5,color:#fff
-    style G fill:#E6522C,color:#fff
+    A["git push"] --> B["Jenkins / GH Actions"]
+    B --> C["SonarQube + Trivy scan"]
+    C --> D["Docker build → ACR"]
+    D --> E["terraform apply"]
+    E --> F["ArgoCD → AKS"]
+    F --> G["Prometheus + Grafana"]
+
+    style A fill:#0F0F0F,stroke:#39FF14,color:#39FF14
+    style B fill:#0F0F0F,stroke:#D24939,color:#D24939
+    style C fill:#0F0F0F,stroke:#4E9BCD,color:#4E9BCD
+    style D fill:#0F0F0F,stroke:#2496ED,color:#2496ED
+    style E fill:#0F0F0F,stroke:#7B42BC,color:#B583FF
+    style F fill:#0F0F0F,stroke:#EF7B4D,color:#EF7B4D
+    style G fill:#0F0F0F,stroke:#E6522C,color:#E6522C
 ```
 
 <br/>
 
-## 💼 Featured Projects
+## `$` ls -la projects/
 
-<table>
-<tr>
-<td width="33%" valign="top">
+<details open>
+<summary><b>🏢 azure-landing-zone/</b> — Hub-and-Spoke Landing Zone for a BFSI enterprise client</summary>
+<br/>
 
-### 🏢 Azure Landing Zone
-Hub-and-Spoke landing zone for a BFSI client. Modular Terraform, Azure DevOps → AKS via ACR, Key Vault + RBAC, Monitor/Log Analytics.
+Migrated manual infra provisioning to modular **Terraform**. Built **Azure DevOps** pipelines pushing to **ACR** and deploying to **AKS** with environment-based approval gates. Configured **Key Vault**, **RBAC**, and **Monitor/Log Analytics** for centralized secrets and alerting.
 
-**Impact:** `-40% provisioning effort` · `<30min deploys`
+> **Impact:** `-40% provisioning effort` · `deploy time: hours → <30 min`
 
-`Azure` `Terraform` `AKS` `ACR` `RBAC`
+`Azure` `Terraform` `AKS` `ACR` `Key Vault` `RBAC`
 
-</td>
-<td width="33%" valign="top">
+</details>
 
-### 🌐 AWS Three-Tier Architecture
-Highly available three-tier web app across multiple AZs — ALB, Auto Scaling, EC2, RDS, fully provisioned via Terraform.
+<details>
+<summary><b>🌐 aws-three-tier-arch/</b> — Highly available three-tier web architecture</summary>
+<br/>
 
-`AWS VPC` `ALB` `RDS` `CloudWatch` `Terraform`
+Public/private subnets across multiple Availability Zones, **ALB** + **Auto Scaling** in front of EC2, **RDS** for the database layer — all provisioned via **Terraform** and monitored with **CloudWatch**.
 
-</td>
-<td width="33%" valign="top">
+`AWS VPC` `EC2` `ALB` `Auto Scaling` `RDS` `Terraform` `CloudWatch`
 
-### 🔄 Microservices CI/CD
-Jenkins pipeline with SonarQube + Trivy scanning, Helm-based K8s deploys, GitOps delivery via ArgoCD.
+</details>
 
-`Jenkins` `Helm` `ArgoCD` `SonarQube` `Trivy`
+<details>
+<summary><b>🔄 microservices-cicd/</b> — End-to-end pipeline for containerized microservices</summary>
+<br/>
 
-</td>
-</tr>
-</table>
+**Jenkins** pipeline integrating **SonarQube** (code quality) and **Trivy** (image security scanning), deploying to **Kubernetes** via **Helm** charts with **GitOps** delivery through **ArgoCD**.
+
+`Jenkins` `Docker` `Kubernetes` `Helm` `ArgoCD` `SonarQube` `Trivy`
+
+</details>
 
 <br/>
 
-## 🎓 Certifications
+## `$` cat certifications.log
 
 <div align="center">
 
-| Certification | Issuer |
-|---|---|
-| 🏅 AZ-104: Azure Administrator Associate | Microsoft |
-| 🏅 AZ-900: Azure Fundamentals | Microsoft |
-| 📘 DevOps & Cloud Engineering | Hero Vired × Microsoft |
-| 🤖 Generative AI for Data, Tech & Finance | Hero Vired × Microsoft |
+| status | certification | issuer |
+|:---:|---|---|
+| ✅ | AZ-104 — Azure Administrator Associate | Microsoft |
+| ✅ | AZ-900 — Azure Fundamentals | Microsoft |
+| ✅ | DevOps & Cloud Engineering | Hero Vired × Microsoft |
+| ✅ | Generative AI for Data, Tech & Finance | Hero Vired × Microsoft |
 
 </div>
 
 <br/>
 
-## 📈 GitHub Analytics
+## `$` ./github-stats.sh --verbose
 
 <div align="center">
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=AbhayShukla1907&show_icons=true&theme=tokyonight&hide_border=true&count_private=true"/>
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AbhayShukla1907&layout=compact&theme=tokyonight&hide_border=true"/>
+
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=AbhayShukla1907&show_icons=true&theme=dark&hide_border=true&bg_color=0F0F0F&title_color=39FF14&icon_color=39FF14&text_color=c9d1d9"/>
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AbhayShukla1907&layout=compact&theme=dark&hide_border=true&bg_color=0F0F0F&title_color=39FF14&text_color=c9d1d9"/>
 
 <br/>
 
-<img src="https://streak-stats.demolab.com/?user=AbhayShukla1907&theme=tokyonight&hide_border=true"/>
+<img src="https://streak-stats.demolab.com/?user=AbhayShukla1907&theme=dark&hide_border=true&background=0F0F0F&ring=39FF14&fire=39FF14&currStreakLabel=39FF14"/>
 
 <br/>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=AbhayShukla1907&theme=tokyo-night&hide_border=true"/>
+<img src="https://github-profile-trophy.vercel.app/?username=AbhayShukla1907&theme=darkhub&no-frame=true&margin-w=8&row=1"/>
 
 </div>
 
 <br/>
 
+<img src="https://komarev.com/ghpvc/?username=AbhayShukla1907&label=PROFILE+VIEWS&color=39FF14&style=for-the-badge&labelColor=0F0F0F" align="center"/>
+
+<br/><br/>
+
 <div align="center">
 
-### 🤝 Let's Connect
+## `$` echo "let's build something reliable"
 
-Open to **DevOps, Cloud, and Platform Engineering** roles — always happy to talk infrastructure, automation, or how to make deployments boring (in a good way).
+Open to **DevOps / Cloud / Platform Engineering** roles.
+Always up for a conversation about infrastructure, automation, or making deployments boring — in the best way.
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00C6FF,100:0078D4&height=100&section=footer"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0F0F0F,100:0F0F0F&height=2&section=footer"/>
 
 </div>
