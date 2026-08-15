@@ -1,201 +1,179 @@
-# 👋 Hi, I'm Abhay Kumar Shukla
+<div align="center">
 
-### 🚀 DevOps & AI/ML Engineer | Cloud | Automation | MLOps
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0078D4,100:00C6FF&height=220&section=header&text=Abhay%20Kumar%20Shukla&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=DevOps%20Engineer%20|%20Cloud%20%26%20Automation&descAlignY=52&descSize=18" width="100%"/>
 
-I’m a **DevOps & AI/ML Engineer** focused on building scalable cloud infrastructure, automating deployments, and implementing reliable CI/CD workflows.
+<a href="https://linkedin.com">
+  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
+</a>
+<a href="mailto:abhay06072002@gmail.com">
+  <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
+</a>
+<a href="https://github.com/AbhayShukla1907">
+  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
+</a>
 
-I work with **Azure, AWS, Docker, Kubernetes, Terraform, Jenkins, GitHub Actions, Linux, Python, Prometheus, and Grafana**, along with hands-on knowledge of **Machine Learning, Generative AI, LLMs, RAG, and MLOps**.
+<br/>
 
-I enjoy turning manual infrastructure and deployment processes into **automated, reproducible, and reliable systems**.
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=0078D4&center=true&vCenter=true&width=600&lines=Automating+cloud+infrastructure+%F0%9F%9A%80;Building+CI%2FCD+pipelines+that+don't+break;Infrastructure+as+Code+%3D+Infrastructure+as+Trust;AZ-104+Certified+%7C+Azure+%2B+AWS;Currently+exploring+MLOps+%26+RAG+pipelines"/>
 
----
+</div>
 
-## 🧑‍💻 About Me
+<br/>
 
-* 🔭 Currently working as a **DevOps Engineer Intern at DevOps Insiders**
-* ☁️ Cloud: **Azure | AWS | GCP**
-* ⚙️ Infrastructure as Code: **Terraform | Ansible**
-* 🐳 Containers: **Docker | Kubernetes**
-* 🔄 CI/CD: **Jenkins | GitHub Actions**
-* 📊 Monitoring: **Prometheus | Grafana**
-* 🐧 OS & Servers: **Linux | Nginx**
-* 🐍 Programming & Scripting: **Python | Bash**
-* 🤖 AI/ML: **Machine Learning | LLMs | RAG | Generative AI | MLOps**
-* 🌱 Currently strengthening my skills in **Cloud DevOps, Kubernetes, MLOps & AI-driven automation**
-* 💼 Open to **DevOps / Cloud / MLOps opportunities**
+## 🧭 About Me
 
----
-
-## 🛠️ Tech Stack
-
-### ☁️ Cloud
-
-![Azure](https://img.shields.io/badge/Azure-0078D4?style=for-the-badge\&logo=microsoftazure\&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge\&logo=amazonaws\&logoColor=white)
-![GCP](https://img.shields.io/badge/GCP-4285F4?style=for-the-badge\&logo=googlecloud\&logoColor=white)
-
-### ⚙️ DevOps & Infrastructure
-
-![Terraform](https://img.shields.io/badge/Terraform-844FBA?style=for-the-badge\&logo=terraform\&logoColor=white)
-![Ansible](https://img.shields.io/badge/Ansible-EE0000?style=for-the-badge\&logo=ansible\&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge\&logo=docker\&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge\&logo=kubernetes\&logoColor=white)
-
-### 🔄 CI/CD
-
-![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge\&logo=jenkins\&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge\&logo=githubactions\&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge\&logo=git\&logoColor=white)
-
-### 📊 Monitoring & Observability
-
-![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge\&logo=prometheus\&logoColor=white)
-![Grafana](https://img.shields.io/badge/Grafana-F46800?style=for-the-badge\&logo=grafana\&logoColor=white)
-
-### 🐧 OS & Web Servers
-
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge\&logo=linux\&logoColor=black)
-![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge\&logo=nginx\&logoColor=white)
-
-### 💻 Programming & Scripting
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge\&logo=python\&logoColor=white)
-![Bash](https://img.shields.io/badge/Bash-121011?style=for-the-badge\&logo=gnubash\&logoColor=white)
-
-### 🤖 AI / ML & MLOps
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge\&logo=python\&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge\&logo=numpy\&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge\&logo=pandas\&logoColor=white)
-![Scikit Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge\&logo=scikit-learn\&logoColor=white)
-
-**AI/ML:** Machine Learning • LLMs • Prompt Engineering • RAG • Embeddings • Semantic Search • Knowledge Retrieval
-
-**MLOps:** Model Deployment • ML Pipelines • Model Monitoring • Data Processing • Feature Engineering
-
----
-
-## 🚀 Featured Projects
-
-### 🔹 MEAN Stack CRUD Application
-
-**Angular | Node.js | Express.js | MongoDB | Docker**
-
-* Developed a full-stack CRUD web application using MEAN architecture.
-* Built RESTful APIs using Node.js and Express.js.
-* Integrated MongoDB for data storage and retrieval.
-* Containerized application components using Docker.
-* Implemented a deployment workflow for the application.
-
-🔗 **Repository:** [MEAN CRUD App](https://github.com/AbhayShukla1907/mean-crud-app)
-
----
-
-### 🔹 DevOps CI/CD Pipeline
-
-**Jenkins | GitHub Actions | Docker | Git | Linux**
-
-* Designed automated CI/CD workflows.
-* Implemented automated build and deployment processes.
-* Used Docker for application containerization.
-* Integrated Git-based version control.
-* Focused on improving deployment consistency and release efficiency.
-
----
-
-### 🔹 Infrastructure as Code
-
-**Terraform | AWS | Azure**
-
-* Provisioned cloud infrastructure using Terraform.
-* Applied Infrastructure as Code principles for repeatable deployments.
-* Worked with cloud networking, compute and infrastructure components.
-* Practiced modular and version-controlled infrastructure management.
-
----
-
-### 🔹 Monitoring & Observability
-
-**Prometheus | Grafana**
-
-* Configured Prometheus for infrastructure and application monitoring.
-* Created Grafana dashboards for visualization.
-* Monitored system performance and resource utilization.
-* Worked with monitoring concepts for proactive troubleshooting.
-
----
-
-## 📚 Certifications
-
-* 🏅 **AZ-104: Microsoft Azure Administrator Associate**
-* 🏅 **Certificate Program in DevOps & Cloud Engineering** — Hero Vired with Microsoft
-* 🏅 **Integrated Program in Generative AI for Data, Tech & Finance** — Hero Vired with Microsoft
-
----
-
-## 🎓 Education
-
-**B.Tech — Electrical Engineering**
-Gyan Ganga Institute of Technology & Science, Jabalpur
-**2025**
-
-**Diploma — Electrical Engineering**
-Government Polytechnic College, Shahdol
-**2022**
-
----
-
-## 📈 GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=AbhayShukla1907&show_icons=true&theme=tokyonight&hide_border=true" height="170"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AbhayShukla1907&layout=compact&theme=tokyonight&hide_border=true" height="170"/>
-</p>
-
----
-
-## 🔥 Contribution Streak
-
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=AbhayShukla1907&theme=tokyonight&hide_border=true" />
-</p>
-
----
-
-## 📊 What I'm Currently Learning
-
-```text
-Cloud DevOps        ████████████████████░░  90%
-Docker              ████████████████████░░  90%
-Kubernetes          ██████████████████░░░░  85%
-Terraform           ████████████████████░░  90%
-CI/CD               ████████████████████░░  90%
-Azure               ████████████████████░░  90%
-AWS                 ██████████████████░░░░  85%
-Monitoring          █████████████████░░░░░  80%
-Python              ████████████████░░░░░░  75%
-MLOps               ██████████████░░░░░░░░  70%
-Generative AI       ███████████████░░░░░░░  75%
+```yaml
+role: DevOps Engineer Intern @ DevOps Insiders, Noida
+focus: [Cloud Infrastructure, CI/CD Automation, IaC, Observability]
+currently_building: Azure Landing Zones for BFSI-grade enterprise clients
+currently_learning: [Generative AI, RAG pipelines, MLOps]
+fun_fact: I treat every manual deployment step as a bug to be automated
 ```
 
----
+- 🔭 Currently modernizing CI/CD pipelines and standardizing landing zones on **Azure**
+- 🌱 Growing into **Generative AI / LLMs / MLOps** to bring an ML-aware lens to platform engineering
+- ⚡ Reduced infra provisioning effort by **~40%** and cut deployment time from hours to **under 30 minutes** on a recent enterprise project
+- 🎯 2025 B.Tech grad (Electrical Engineering) → pivoted hard into Cloud & DevOps
+- 💬 Ask me about: Terraform modules, AKS/EKS, Jenkins pipelines, or Prometheus/Grafana dashboards
 
-## 🤝 Let's Connect
+<br/>
 
-<p align="left">
-  <a href="https://www.linkedin.com/" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
-  </a>
-  <a href="mailto:abhay06072002@gmail.com">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
-  </a>
-  <a href="https://github.com/AbhayShukla1907">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
-  </a>
-</p>
+## 🧰 Tech Arsenal
 
----
+<table>
+<tr>
+<td valign="top" width="50%">
 
-### 💡 "Automate everything that can be automated."
+**☁️ Cloud & Infra**
+<br/>
+<img src="https://skillicons.dev/icons?i=azure,aws,gcp,terraform,ansible,linux" />
 
-⭐ Feel free to explore my repositories and connect with me for **DevOps, Cloud, AI/ML, and MLOps opportunities**.
+**📦 Containers & Orchestration**
+<br/>
+<img src="https://skillicons.dev/icons?i=docker,kubernetes,helm" />
+
+</td>
+<td valign="top" width="50%">
+
+**🔁 CI/CD & GitOps**
+<br/>
+<img src="https://skillicons.dev/icons?i=jenkins,githubactions,azuredevops,git,github" />
+
+**📊 Monitoring & Scripting**
+<br/>
+<img src="https://skillicons.dev/icons?i=prometheus,grafana,python,bash" />
+
+</td>
+</tr>
+</table>
+
+<div align="center">
+<img src="https://img.shields.io/badge/ArgoCD-EF7B4D?style=flat-square&logo=argo&logoColor=white"/>
+<img src="https://img.shields.io/badge/SonarQube-4E9BCD?style=flat-square&logo=sonarqube&logoColor=white"/>
+<img src="https://img.shields.io/badge/Trivy-1904DA?style=flat-square&logo=aquasecurity&logoColor=white"/>
+<img src="https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white"/>
+<img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white"/>
+<img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white"/>
+<img src="https://img.shields.io/badge/Scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white"/>
+</div>
+
+<br/>
+
+## 🏗️ Infrastructure Pipeline (how I ship)
+
+```mermaid
+graph LR
+    A[Code Commit] --> B[GitHub Actions / Jenkins]
+    B --> C[SonarQube + Trivy Scan]
+    C --> D[Docker Build & Push to ACR]
+    D --> E[Terraform Apply]
+    E --> F[Deploy to AKS via ArgoCD]
+    F --> G[Prometheus + Grafana Monitoring]
+    style A fill:#0078D4,color:#fff
+    style B fill:#D24939,color:#fff
+    style C fill:#4E9BCD,color:#fff
+    style D fill:#2496ED,color:#fff
+    style E fill:#7B42BC,color:#fff
+    style F fill:#326CE5,color:#fff
+    style G fill:#E6522C,color:#fff
+```
+
+<br/>
+
+## 💼 Featured Projects
+
+<table>
+<tr>
+<td width="33%" valign="top">
+
+### 🏢 Azure Landing Zone
+Hub-and-Spoke landing zone for a BFSI client. Modular Terraform, Azure DevOps → AKS via ACR, Key Vault + RBAC, Monitor/Log Analytics.
+
+**Impact:** `-40% provisioning effort` · `<30min deploys`
+
+`Azure` `Terraform` `AKS` `ACR` `RBAC`
+
+</td>
+<td width="33%" valign="top">
+
+### 🌐 AWS Three-Tier Architecture
+Highly available three-tier web app across multiple AZs — ALB, Auto Scaling, EC2, RDS, fully provisioned via Terraform.
+
+`AWS VPC` `ALB` `RDS` `CloudWatch` `Terraform`
+
+</td>
+<td width="33%" valign="top">
+
+### 🔄 Microservices CI/CD
+Jenkins pipeline with SonarQube + Trivy scanning, Helm-based K8s deploys, GitOps delivery via ArgoCD.
+
+`Jenkins` `Helm` `ArgoCD` `SonarQube` `Trivy`
+
+</td>
+</tr>
+</table>
+
+<br/>
+
+## 🎓 Certifications
+
+<div align="center">
+
+| Certification | Issuer |
+|---|---|
+| 🏅 AZ-104: Azure Administrator Associate | Microsoft |
+| 🏅 AZ-900: Azure Fundamentals | Microsoft |
+| 📘 DevOps & Cloud Engineering | Hero Vired × Microsoft |
+| 🤖 Generative AI for Data, Tech & Finance | Hero Vired × Microsoft |
+
+</div>
+
+<br/>
+
+## 📈 GitHub Analytics
+
+<div align="center">
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=AbhayShukla1907&show_icons=true&theme=tokyonight&hide_border=true&count_private=true"/>
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AbhayShukla1907&layout=compact&theme=tokyonight&hide_border=true"/>
+
+<br/>
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=AbhayShukla1907&theme=tokyonight&hide_border=true"/>
+
+<br/>
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=AbhayShukla1907&theme=tokyo-night&hide_border=true"/>
+
+</div>
+
+<br/>
+
+<div align="center">
+
+### 🤝 Let's Connect
+
+Open to **DevOps, Cloud, and Platform Engineering** roles — always happy to talk infrastructure, automation, or how to make deployments boring (in a good way).
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00C6FF,100:0078D4&height=100&section=footer"/>
+
+</div>
