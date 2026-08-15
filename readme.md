@@ -1,662 +1,293 @@
-````markdown
-<div align="center">
+# 👋 Hi, I'm Abhay Kumar Shukla
 
-# `abhay@devops:~$`
+### 🚀 DevOps & AI/ML Engineer | Cloud | Automation | MLOps
 
-### ABHAY KUMAR SHUKLA
-
-**DevOps Engineer · Cloud Engineering · Kubernetes · Terraform · CI/CD · DevSecOps**
-
-`BUILD → AUTOMATE → DEPLOY → OBSERVE → IMPROVE`
-
-<br>
-
-<a href="https://github.com/AbhayShukla1907">
-  <img src="https://img.shields.io/badge/GitHub-AbhayShukla1907-161B22?style=for-the-badge&logo=github">
-</a>
-<a href="mailto:abhay06072002@gmail.com">
-  <img src="https://img.shields.io/badge/Email-abhay06072002-D14836?style=for-the-badge&logo=gmail&logoColor=white">
-</a>
-<a href="[YOUR_LINKEDIN_URL]">
-  <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white">
-</a>
-
-<br><br>
-
-```text
-╭────────────────────────────────────────────────────────────────────╮
-│                                                                    │
-│  $ whoami                                                          │
-│  abhay                                                             │
-│                                                                    │
-│  $ cat /etc/engineer                                               │
-│  Cloud + DevOps Engineer                                           │
-│                                                                    │
-│  $ systemctl status engineering                                    │
-│  ● ACTIVE                                                           │
-│                                                                    │
-│  $ mission                                                         │
-│  Automate infrastructure. Ship reliable workloads.                 │
-│  Build repeatable cloud platforms.                                 │
-│                                                                    │
-╰────────────────────────────────────────────────────────────────────╯
-````
-
-</div>
+<p align="left">
+  <a href="https://github.com/AbhayShukla1907">
+    <img src="https://img.shields.io/badge/GitHub-AbhayShukla1907-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+  </a>
+  <a href="mailto:abhay06072002@gmail.com">
+    <img src="https://img.shields.io/badge/Email-Contact_Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
+  </a>
+</p>
 
 ---
 
-# `01 / ENGINEERING PROFILE`
+## 👨‍💻 About Me
 
-I work at the intersection of **Cloud Infrastructure, DevOps Automation and Platform Engineering** — turning infrastructure, deployments and operational workflows into repeatable engineering systems.
+I'm a **DevOps & AI/ML Engineer** focused on building scalable cloud infrastructure, automating software delivery, and exploring modern AI/ML technologies.
 
-```yaml
-engineer:
-  role: DevOps Engineer
+* ☁️ Cloud: **Azure, AWS, GCP**
+* ⚙️ Infrastructure as Code: **Terraform, Ansible**
+* 🔄 CI/CD: **Jenkins, GitHub Actions**
+* 📦 Containers: **Docker, Kubernetes**
+* 📊 Monitoring: **Prometheus, Grafana**
+* 🐧 OS & Automation: **Linux, Python, Bash**
+* 🤖 AI/ML: **Machine Learning, LLMs, RAG, Prompt Engineering**
+* 🧠 MLOps: **ML Pipelines, Model Deployment & Monitoring**
 
-primary_domains:
-  - Cloud Engineering
-  - Infrastructure as Code
-  - Kubernetes
-  - CI/CD
-  - DevSecOps
-  - GitOps
-  - Cloud Automation
-  - Observability
-
-cloud:
-  - Azure
-  - AWS
-  - GCP
-
-engineering_principle:
-  infrastructure: code
-  deployment: automation
-  security: shift-left
-  operations: observability
-  architecture: repeatability
-```
+> 🎯 **My goal:** Build reliable, scalable and automated cloud-native solutions by combining **DevOps, Cloud and AI/ML**.
 
 ---
 
-# `02 / WHAT I BUILD`
+## 🛠️ Tech Stack
 
-<table>
-<tr>
-<td width="25%" align="center">
+### ☁️ Cloud
 
-### ☁️ CLOUD
-
-Azure
-AWS
-GCP
-
-VNet / VPC
-Networking
-IAM / RBAC
-Storage
-Compute
-
-</td>
-
-<td width="25%" align="center">
-
-### ⚙️ INFRA
-
-Terraform
-Ansible
-
-Reusable Modules
-Remote State
-Environment Isolation
-Automated Provisioning
-
-</td>
-
-<td width="25%" align="center">
-
-### 📦 PLATFORM
-
-Docker
-Kubernetes
-AKS
-Helm
-ACR
-ArgoCD
-
-Container Platforms
-GitOps Deployments
-
-</td>
-
-<td width="25%" align="center">
-
-### 🚀 DELIVERY
-
-Jenkins
-GitHub Actions
-Azure DevOps
-
-CI/CD
-Security Gates
-Automated Releases
-Observability
-
-</td>
-</tr>
-</table>
-
----
-
-# `03 / ENGINEERING PIPELINE`
-
-```text
-                         ┌──────────────────┐
-                         │    DEVELOPER      │
-                         └────────┬─────────┘
-                                  │
-                                  ▼
-                         ┌──────────────────┐
-                         │      GITHUB      │
-                         └────────┬─────────┘
-                                  │
-                                  ▼
-                    ┌──────────────────────────┐
-                    │       CI PIPELINE       │
-                    │ Jenkins / GH Actions /  │
-                    │      Azure DevOps       │
-                    └────────────┬─────────────┘
-                                 │
-                    ┌────────────┴────────────┐
-                    ▼                         ▼
-             ┌──────────────┐         ┌──────────────┐
-             │  SONARQUBE   │         │    TRIVY     │
-             │ Code Quality │         │ Security Scan│
-             └──────┬───────┘         └──────┬───────┘
-                    │                         │
-                    └────────────┬────────────┘
-                                 ▼
-                         ┌───────────────┐
-                         │     DOCKER    │
-                         │    BUILD      │
-                         └───────┬───────┘
-                                 │
-                                 ▼
-                         ┌───────────────┐
-                         │     ACR /     │
-                         │    REGISTRY   │
-                         └───────┬───────┘
-                                 │
-                                 ▼
-                         ┌───────────────┐
-                         │  KUBERNETES   │
-                         │      / AKS    │
-                         └───────┬───────┘
-                                 │
-                          ┌──────┴──────┐
-                          ▼             ▼
-                       HELM          ARGOCD
-                          │          GitOps
-                          └──────┬──────┘
-                                 ▼
-                    ┌────────────────────────┐
-                    │     OBSERVABILITY      │
-                    │ Prometheus · Grafana   │
-                    │ Azure Monitor · Logs   │
-                    └────────────────────────┘
-```
-
----
-
-# `04 / FEATURED BUILDS`
-
-## `01` — Azure Landing Zone + DevSecOps Platform
-
-```text
-PROJECT
-├── Architecture
-│   ├── Hub-and-Spoke
-│   ├── Dev / QA / Prod isolation
-│   ├── VNets
-│   ├── Subnets
-│   └── NSGs
-│
-├── Infrastructure
-│   ├── Terraform
-│   ├── Reusable modules
-│   └── Azure Storage remote state
-│
-├── Platform
-│   ├── AKS
-│   ├── ACR
-│   ├── Azure Key Vault
-│   └── Azure RBAC
-│
-├── Delivery
-│   └── Azure DevOps
-│
-└── Observability
-    ├── Azure Monitor
-    └── Log Analytics
-```
-
-**Problem**
-
-Infrastructure provisioning and application delivery can become slow and inconsistent when environments are managed manually.
-
-**Approach**
-
-Designed an Azure Landing Zone-style architecture using reusable Terraform modules, environment isolation, centralized networking and automated CI/CD.
-
-**Engineering Stack**
-
-`Azure` `Terraform` `Azure DevOps` `AKS` `ACR` `Docker` `Key Vault` `RBAC` `Azure Monitor` `Log Analytics`
-
-**Documented Outcome**
-
-> ~40% reduction in infrastructure provisioning effort
-> Deployment time reduced from hours to **under 30 minutes**
-
-**Repository**
-
-`→ [REPOSITORY_URL]`
-
----
-
-## `02` — AWS Three-Tier Architecture
-
-```text
-                         INTERNET
-                             │
-                             ▼
-                       ┌───────────┐
-                       │ Route 53  │
-                       └─────┬─────┘
-                             │
-                             ▼
-                       ┌───────────┐
-                       │    ALB    │
-                       └─────┬─────┘
-                             │
-                ┌────────────┴────────────┐
-                ▼                         ▼
-          ┌───────────┐             ┌───────────┐
-          │    EC2    │             │    EC2    │
-          │    AZ-1   │             │    AZ-2   │
-          └─────┬─────┘             └─────┬─────┘
-                │                         │
-                └────────────┬────────────┘
-                             ▼
-                       ┌───────────┐
-                       │    RDS    │
-                       └───────────┘
-
-                       ┌───────────┐
-                       │    S3     │
-                       └───────────┘
-```
-
-**Problem**
-
-Build a scalable three-tier cloud architecture with network separation and availability across multiple Availability Zones.
-
-**Approach**
-
-Provisioned the infrastructure through Terraform using public/private subnets, ALB, Auto Scaling, EC2 and managed RDS.
-
-**Engineering Stack**
-
-`AWS` `VPC` `EC2` `ALB` `Auto Scaling` `RDS` `S3` `IAM` `Route 53` `CloudWatch` `Terraform`
-
-**Engineering Outcome**
-
-```text
-Network Isolation
-       +
-Multi-AZ Architecture
-       +
-Elastic Compute
-       +
-Managed Database
-       +
-Infrastructure as Code
-```
-
-**Repository**
-
-`→ [REPOSITORY_URL]`
-
----
-
-## `03` — End-to-End Microservices CI/CD + GitOps
-
-```text
-SOURCE
-  │
-  ▼
-GitHub
-  │
-  ▼
-Jenkins
-  │
-  ├──────► SonarQube
-  │
-  ▼
-Docker Build
-  │
-  ▼
-Trivy
-  │
-  ▼
-Container Registry
-  │
-  ▼
-Kubernetes
-  │
-  ├──────► Helm
-  │
-  ▼
-ArgoCD
-  │
-  ▼
-GitOps Deployment
-  │
-  ▼
-Prometheus + Grafana
-```
-
-**Problem**
-
-Create a delivery workflow where application changes move through quality, security, containerization and deployment stages automatically.
-
-**Approach**
-
-Built a CI/CD workflow integrating source control, code analysis, container security, Docker, Kubernetes and GitOps-based deployment.
-
-**Engineering Stack**
-
-`Jenkins` `GitHub` `Docker` `Kubernetes` `Helm` `ArgoCD` `SonarQube` `Trivy`
-
-**Engineering Outcome**
-
-```text
-CODE
- ↓
-QUALITY
- ↓
-SECURITY
- ↓
-CONTAINER
- ↓
-REGISTRY
- ↓
-KUBERNETES
- ↓
-GITOPS
- ↓
-OBSERVE
-```
-
-**Repository**
-
-`→ [REPOSITORY_URL]`
-
----
-
-# `05 / INFRASTRUCTURE AS CODE`
-
-```text
-                   ┌─────────────────────┐
-                   │     Terraform       │
-                   └──────────┬──────────┘
-                              │
-             ┌────────────────┼────────────────┐
-             ▼                ▼                ▼
-        ┌─────────┐      ┌─────────┐      ┌─────────┐
-        │   DEV   │      │   QA    │      │  PROD   │
-        └────┬────┘      └────┬────┘      └────┬────┘
-             │                │                │
-             └────────────────┼────────────────┘
-                              ▼
-                    ┌──────────────────┐
-                    │ Cloud Resources  │
-                    ├──────────────────┤
-                    │ Networking       │
-                    │ Compute          │
-                    │ Storage           │
-                    │ Security          │
-                    │ Kubernetes        │
-                    └──────────────────┘
-```
-
-### Terraform mindset
-
-```text
-Manual Infrastructure
-        ↓
-Configuration
-        ↓
-Version Control
-        ↓
-Plan
-        ↓
-Review
-        ↓
-Apply
-        ↓
-Repeatable Infrastructure
-```
-
----
-
-# `06 / TECH STACK`
-
-### `CLOUD`
-
-<p>
+<p align="left">
 <img src="https://skillicons.dev/icons?i=azure,aws,gcp" />
 </p>
 
-`Azure` · `AWS` · `GCP`
+**Azure** • **AWS** • **GCP**
 
-### `INFRASTRUCTURE`
+---
 
-<p>
-<img src="https://skillicons.dev/icons?i=terraform,ansible" />
+### ⚙️ DevOps & Infrastructure
+
+<p align="left">
+<img src="https://skillicons.dev/icons?i=terraform,ansible,docker,kubernetes,linux" />
 </p>
 
-`Terraform` · `Ansible`
+**Terraform** • **Ansible** • **Docker** • **Kubernetes** • **Linux**
 
-### `CONTAINERS`
+---
 
-<p>
-<img src="https://skillicons.dev/icons?i=docker,kubernetes,helm" />
+### 🔄 CI/CD & Version Control
+
+<p align="left">
+<img src="https://skillicons.dev/icons?i=jenkins,github,git" />
 </p>
 
-`Docker` · `Kubernetes` · `AKS` · `ACR` · `Helm`
+**Jenkins** • **GitHub Actions** • **Git** • **GitHub**
 
-### `CI/CD`
+---
 
-<p>
-<img src="https://skillicons.dev/icons?i=jenkins,githubactions,azuredevops" />
-</p>
+### 📊 Monitoring & Observability
 
-`Jenkins` · `GitHub Actions` · `Azure DevOps`
-
-### `GITOPS`
-
-`ArgoCD` · `GitOps`
-
-### `DEVSECOPS`
-
-`SonarQube` · `Trivy` · `Azure Key Vault` · `Azure RBAC` · `AWS IAM`
-
-### `OBSERVABILITY`
-
-<p>
+<p align="left">
 <img src="https://skillicons.dev/icons?i=prometheus,grafana" />
 </p>
 
-`Prometheus` · `Grafana` · `Azure Monitor` · `Log Analytics` · `CloudWatch`
+**Prometheus** • **Grafana**
 
-### `NETWORKING`
+---
 
-`Azure Networking` · `VNets` · `Subnets` · `NSGs` · `Load Balancers` · `AWS VPC` · `ALB` · `Route 53`
+### 🐍 Programming & Scripting
 
-### `SYSTEMS & AUTOMATION`
-
-<p>
-<img src="https://skillicons.dev/icons?i=linux,nginx,python,bash" />
+<p align="left">
+<img src="https://skillicons.dev/icons?i=python,bash" />
 </p>
 
-`Linux` · `Nginx` · `Python` · `Bash`
-
-### `AI / ML`
-
-`Machine Learning` · `Generative AI` · `LLMs` · `RAG` · `MLOps` · `NumPy` · `Pandas` · `Scikit-learn`
+**Python** • **Bash**
 
 ---
 
-# `07 / HOW I THINK`
+### 🤖 AI / ML & MLOps
+
+**Machine Learning**
+Supervised Learning • Unsupervised Learning • Model Evaluation
+
+**Generative AI**
+LLMs • Prompt Engineering • RAG • Embeddings • Semantic Search
+
+**MLOps**
+Model Deployment • ML Pipelines • Model Monitoring • Data Processing
+
+---
+
+# 🚀 Featured Projects
+
+## 🔹 MEAN Stack CRUD Application
+
+**Angular • Node.js • Express.js • MongoDB • Docker**
+
+A full-stack CRUD web application built using the MEAN stack.
+
+### Key Highlights
+
+* Developed RESTful APIs using **Node.js & Express.js**
+* Implemented **MongoDB** for data storage and retrieval
+* Built application functionality using **Angular**
+* Containerized application components using **Docker**
+* Configured deployment workflow for the application
+
+🔗 **Repository:** Check my GitHub repositories for the implementation.
+
+---
+
+## 🔹 DevOps & Cloud Infrastructure
+
+**Terraform • AWS • Azure • Docker • Kubernetes • Jenkins**
+
+Hands-on infrastructure and automation projects focused on real-world DevOps practices.
+
+### Key Areas
+
+* ☁️ Cloud infrastructure provisioning
+* 🏗️ Infrastructure as Code using **Terraform**
+* 🔄 CI/CD automation using **Jenkins & GitHub Actions**
+* 📦 Containerization using **Docker**
+* ☸️ Kubernetes application deployment
+* 📊 Monitoring using **Prometheus & Grafana**
+* 🐧 Linux administration and troubleshooting
+* ⚡ Infrastructure automation using **Ansible**
+
+---
+
+## 🔹 AI / ML & Generative AI
+
+**Python • Machine Learning • LLMs • RAG • MLOps**
+
+Exploring practical applications of AI/ML and Generative AI with a focus on production-oriented workflows.
+
+### Areas of Interest
+
+* 🤖 Machine Learning
+* 🧠 Large Language Models
+* ✨ Prompt Engineering
+* 🔎 Retrieval Augmented Generation
+* 📚 Embeddings & Semantic Search
+* 🗃️ Vector-based Retrieval
+* ⚙️ MLOps
+* 📈 Model Monitoring
+
+---
+
+# 📂 Repository Structure
+
+My repositories focus on practical implementations across **DevOps, Cloud and AI/ML**.
 
 ```text
-┌───────────────────────┬───────────────────────────────┐
-│ Problem               │ Engineering Response         │
-├───────────────────────┼───────────────────────────────┤
-│ Manual infrastructure │ → Infrastructure as Code     │
-│ Repetitive deployment │ → CI/CD Automation            │
-│ Configuration drift   │ → Version-controlled config   │
-│ Slow releases         │ → Automated delivery          │
-│ Security at the end   │ → Shift-left DevSecOps        │
-│ Container complexity  │ → Kubernetes + Helm            │
-│ Deployment drift      │ → GitOps + ArgoCD             │
-│ Blind operations      │ → Metrics + Logs + Dashboards  │
-│ Cloud inconsistency   │ → Reusable architecture       │
-└───────────────────────┴───────────────────────────────┘
+AbhayShukla1907/
+│
+├── ☁️ Cloud
+│   ├── Azure
+│   ├── AWS
+│   └── GCP
+│
+├── ⚙️ DevOps
+│   ├── Terraform
+│   ├── Ansible
+│   ├── Jenkins
+│   ├── GitHub-Actions
+│   ├── Docker
+│   └── Kubernetes
+│
+├── 📊 Monitoring
+│   ├── Prometheus
+│   └── Grafana
+│
+├── 🤖 AI-ML
+│   ├── Machine-Learning
+│   ├── Generative-AI
+│   ├── LLM
+│   ├── RAG
+│   └── MLOps
+│
+└── 🚀 Projects
+    └── Cloud & DevOps Projects
 ```
 
 ---
 
-# `08 / CURRENTLY EXPLORING`
+# 📜 Certifications
+
+🏅 **AZ-104: Microsoft Azure Administrator Associate**
+
+🏅 **Certificate Program in DevOps & Cloud Engineering**
+Hero Vired with Microsoft
+
+🏅 **Integrated Program in Generative AI for Data, Tech & Finance**
+Hero Vired with Microsoft
+
+---
+
+# 📈 GitHub Stats
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=AbhayShukla1907&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="170"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AbhayShukla1907&layout=compact&theme=tokyonight&hide_border=true" height="170"/>
+</p>
+
+---
+
+# 🔥 GitHub Streak
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=AbhayShukla1907&theme=tokyonight&hide_border=true" />
+</p>
+
+---
+
+# 📊 Contribution Activity
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=AbhayShukla1907&theme=tokyo-night&hide_border=true" width="95%"/>
+</p>
+
+---
+
+# 🎯 Current Focus
 
 ```text
-┌─────────────────────────────────────────────────────────────┐
-│                                                             │
-│  Kubernetes              █████████░░                        │
-│  Advanced Terraform      █████████░░                        │
-│  Azure Architecture      █████████░░                        │
-│  CI/CD Automation        █████████░░                        │
-│  DevSecOps               ████████░░░                        │
-│  GitOps                  ████████░░░                        │
-│  Observability           ████████░░░                        │
-│  MLOps                   ██████░░░░░                        │
-│  AI / LLM Infrastructure ██████░░░░░                        │
-│                                                             │
-└─────────────────────────────────────────────────────────────┘
+Cloud Infrastructure
+        ↓
+Infrastructure as Code
+        ↓
+CI/CD Automation
+        ↓
+Containers & Kubernetes
+        ↓
+Monitoring & Observability
+        ↓
+MLOps
+        ↓
+Generative AI & LLMs
+        ↓
+Cloud-Native AI Solutions
 ```
 
 ---
 
-# `09 / CERTIFICATIONS`
+# 🌱 Currently Learning
 
-```text
-AZ-104
-Microsoft Azure Administrator Associate
-
-AZ-900
-Microsoft Azure Fundamentals
-
-DevOps & Cloud Engineering
-Hero Vired + Microsoft
-
-Generative AI for Data, Tech & Finance
-Hero Vired + Microsoft
-```
+* ☁️ Advanced Cloud Architecture
+* 🏗️ Terraform & Infrastructure Automation
+* ☸️ Kubernetes
+* 🔄 CI/CD & DevOps Automation
+* 📊 Observability & Monitoring
+* 🤖 Generative AI & LLM Applications
+* 🔎 RAG & Vector Search
+* ⚙️ MLOps
 
 ---
 
-# `10 / GITHUB SIGNAL`
+# 🤝 Let's Connect
 
-<div align="center">
-
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=AbhayShukla1907&show_icons=true&hide_border=true&theme=github_dark&rank_icon=github" />
-
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AbhayShukla1907&layout=compact&hide_border=true&theme=github_dark" />
-
-<br><br>
-
-<img src="https://streak-stats.demolab.com?user=AbhayShukla1907&theme=github-dark-blue&hide_border=true" />
-
-</div>
-
----
-
-# `11 / DEVELOPER_IDENTITY`
-
-```text
-          ┌─────────────────────────────────────┐
-          │         ENGINEERING LOOP             │
-          └──────────────────┬──────────────────┘
-                             │
-                             ▼
-                       DESIGN SYSTEM
-                             │
-                             ▼
-                       WRITE AS CODE
-                             │
-                             ▼
-                         AUTOMATE
-                             │
-                             ▼
-                          SECURE
-                             │
-                             ▼
-                         DEPLOY
-                             │
-                             ▼
-                         OBSERVE
-                             │
-                             ▼
-                         IMPROVE
-                             │
-                             └───────────────┐
-                                             │
-                                             ▼
-                                      DESIGN AGAIN
-```
-
-> **Cloud is the platform. Code is the interface. Automation is the multiplier.**
-
----
-
-# `12 / CONNECT`
-
-<div align="center">
-
-### `abhay@devops:~$ ./connect.sh`
-
-```text
-GitHub    →  github.com/AbhayShukla1907
-LinkedIn  →  [YOUR_LINKEDIN_URL]
-Email     →  abhay06072002@gmail.com
-Location  →  Gurugram, Haryana, India
-```
+<p align="center">
 
 <a href="https://github.com/AbhayShukla1907">
-<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white">
-</a>
-
-<a href="[YOUR_LINKEDIN_URL]">
-<img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white">
+<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
 </a>
 
 <a href="mailto:abhay06072002@gmail.com">
-<img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white">
+<img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
 </a>
 
-<br><br>
+<!-- Replace YOUR_LINKEDIN_URL with your actual LinkedIn profile URL -->
 
-`Cloud` · `IaC` · `Kubernetes` · `CI/CD` · `DevSecOps` · `GitOps` · `Observability`
+<a href="YOUR_LINKEDIN_URL">
+<img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
+</a>
 
-</div>
-```
+</p>
+
+---
+
+<p align="center">
+
+### ⭐ Thanks for visiting my profile!
+
+**DevOps • Cloud • Automation • AI/ML**
+
+</p>
